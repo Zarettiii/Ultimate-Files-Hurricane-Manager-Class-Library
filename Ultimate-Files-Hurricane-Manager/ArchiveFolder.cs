@@ -93,6 +93,19 @@ namespace UltimateFilesHurricaneManagerClassLibrary
                     }
                 }
             }
+
+
+            foreach (var item in DirectoriesList)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.WriteLine("----------------------");
+            foreach (var item in FilesList)
+            {
+                Console.WriteLine(item.Path);
+            }
+
+
         }
 
         public override void Remove()
